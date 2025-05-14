@@ -1,0 +1,19 @@
+{
+  "collectionId": "rootCollection",
+  "mediaTypeEndpoint": "html",
+  "homePageSettings": {
+    "collectionAltTitle": "Collection de démo",
+    "collectionShortTitle": "MaDémo",
+    "collectionDescription": "",
+    "customCollectionDescription": { "compName": "HomePageContent" },
+    "appNavBarLogo": {
+      "imgName": "logo-enc-white.png",
+      "href": "https://www.chartes.psl.eu"
+    }
+  },
+  "footerSettings": {
+    "footerTitle": "Collection de démo",
+    "footerSubtitles": [],
+    "footerDescription": "Une implémentation des cookbooks de DoTS"
+  }
+}
