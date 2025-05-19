@@ -13,7 +13,6 @@
   },
   "footerSettings": {
     "footerTitle": "Collection de démo",
-    "footerSubtitles": [],
-    "footerDescription": "Une implémentation des cookbooks de DoTS"
+    "footerSubtitles": ["Une implémentation des cookbooks de DoTS"]
   }
 }
