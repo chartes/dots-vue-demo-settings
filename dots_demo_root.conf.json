@@ -2,17 +2,33 @@
   "collectionId": "dots_demo_root",
   "mediaTypeEndpoint": "html",
   "homePageSettings": {
-    "collectionAltTitle": "Collection de démo",
-    "collectionShortTitle": "MaDémo",
-    "collectionDescription": "",
-    "customCollectionDescription": { "compName": "HomePageContent" },
-    "appNavBarLogo": {
-      "imgName": "logo-enc-white.png",
-      "href": "https://www.chartes.psl.eu"
+    "appNavBar": {
+      "appNavBarLogo": {
+        "imgName": "logo-enc-white.png",
+        "href": "https://www.chartes.psl.eu"
+       },
+      "collectionShortTitle": "MaDémo",
+      "appNavBarApiLogo": {
+        "imgName": "logo_api.svg",
+        "href": "https://chartes.github.io/dots_documentation/api/"
+      }
+    },
+    "pageHeader": {
+      "collectionAltTitle": "Collection de démo",
+      "aboutButtonText": "À propos des cookbooks de DoTS"
+    },
+    "descriptionSection": {
+      "collectionDescription": "",
+      "customCollectionDescription": { "compName": "HomePageContent" }
+    },
+    "listSection": {
+      "displayAs": "",
+      "collectionsPerPage": 5
     }
   },
   "footerSettings": {
     "footerTitle": "Collection de démo",
     "footerSubtitles": ["Une implémentation des cookbooks de DoTS"]
-  }
+  },
+  "collectionCustomCss": "dots_demo_root"
 }

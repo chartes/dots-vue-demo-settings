@@ -1,11 +1,22 @@
 {
   "collectionId": "ENCPOS",
-  "mediaTypeEndpoint": "html",
+  "mediaTypeEndpoint": "tei",
   "homePageSettings": {
-    "collectionAltTitle": "",
-    "collectionShortTitle": "Thèses",
-    "collectionDescription": "",
-    "customCollectionDescription": { "compName": "HomePageContent" }
+    "appNavBar": {
+      "collectionShortTitle": "Thèses"
+    },
+    "pageHeader": {
+      "collectionAltTitle": "",
+      "aboutButtonText": "À propos des Thèses"
+    },
+    "descriptionSection": {
+      "collectionDescription": "",
+      "customCollectionDescription": { "compName": "HomePageContent" }
+    },
+    "listSection": {
+      "displayAs": "cards",
+      "collectionsPerPage": 2
+    }
   },
   "footerSettings": {
     "footerTitle": "",
@@ -23,5 +34,6 @@
     { "tabName": "Les thèses", "compName": "about1" },
     { "tabName": "Les positions", "compName": "about2" },
     { "tabName": "Consultation", "compName": "about3" }
-  ]
+  ],
+  "collectionCustomCss": false
 }
