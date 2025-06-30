@@ -10,7 +10,7 @@
     },
     "descriptionSection": {
       "collectionDescription": "",
-      "customCollectionDescription": ""
+      "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
       "displayAs": "list",

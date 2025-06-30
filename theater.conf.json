@@ -3,7 +3,7 @@
   "mediaTypeEndpoint": "tei",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": ""
+      "collectionShortTitle": "Théâtre"
     },
     "pageHeader": {
       "collectionAltTitle": "",
@@ -23,7 +23,7 @@
   "footerSettings": {
     "footerTitle": "Theater footerTitle",
     "footerSubtitles": [
-      "Une implémentation des cookbooks de DoTS pour le théâtre",
+      "Theater subTitle1",
       "Theater subTitle2"
     ],
     "footerDescription": ""
