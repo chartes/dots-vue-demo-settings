@@ -3,7 +3,7 @@
   "mediaTypeEndpoint": "html",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": "Thèses de 1972"
+      "collectionShortTitle": "1972"
     },
     "pageHeader": {
       "collectionAltTitle": "Les positions de l'ENC de 1972"
@@ -16,19 +16,11 @@
       "displayAs": "list"
     }
   },
-  "footerSettings": {
-    "footerTitle": "Positions footerTitle",
-    "footerSubtitles": [
-      "Positions subTitle1",
-      "Positions subTitle2"
-    ],
-    "footerDescription": "Le projet d'édition des POSITIONS a été développé par la Mission projets numériques de l'École nationale des chartes – PSL avec le soutien de Biblissima+. Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-ESRE-0005."
-  },
+  "footerSettings": {},
   "tableOfContentsSettings": {
     "tableOfContentDepth": 5,
-    "editByLevel": null,
-    "editByCiteType": ["chapter"
-    ],
+    "editByLevel": 0,
+    "editByCiteType": ["part"],
     "displayTopToc": true
   },
   "aboutPageSettings": [

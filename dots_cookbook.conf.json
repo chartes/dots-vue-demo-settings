@@ -1,24 +1,22 @@
 {
-  "collectionId": "dots_demo_root",
+  "collectionId": "dots_cookbook",
   "mediaTypeEndpoint": "html",
   "homePageSettings": {
     "appNavBar": {
       "appNavBarLogo": {
-        "imgName": "logo-enc-white.png",
-        "href": "https://www.chartes.psl.eu"
        },
-      "collectionShortTitle": "MaDémo",
+      "collectionShortTitle": "DoTS Cookbook",
       "appNavBarApiLogo": {
         "imgName": "logo_api.svg",
         "href": "https://chartes.github.io/dots_documentation/api/"
       }
     },
     "pageHeader": {
-      "collectionAltTitle": "Collection de démo",
-      "aboutButtonText": "À propos des cookbooks de DoTS"
+      "collectionAltTitle": "Publishing corpora with DoTS",
+      "aboutButtonText": "About DoTS"
     },
     "descriptionSection": {
-      "collectionDescription": "",
+      "collectionDescription": "TODO pour la démo",
       "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
@@ -27,8 +25,8 @@
     }
   },
   "footerSettings": {
-    "footerTitle": "Collection de démo",
-    "footerSubtitles": ["Une implémentation des cookbooks de DoTS"]
+    "footerTitle": "DoTS cookbook",
+    "footerSubtitles": ["Publish DoTS recipes with the dots_vue application."]
   },
   "collectionCustomCss": "dots_demo_root"
 }

@@ -3,11 +3,11 @@
   "mediaTypeEndpoint": "tei",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": "Thèses"
+      "collectionShortTitle": "Thèses, case 1"
     },
     "pageHeader": {
-      "collectionAltTitle": "",
-      "aboutButtonText": "À propos des Thèses"
+      "collectionAltTitle": "Publishing a periodical: thesis abstracts (case 1)",
+      "aboutButtonText": "About this recipe"
     },
     "descriptionSection": {
       "collectionDescription": "",
@@ -15,19 +15,16 @@
     },
     "listSection": {
       "displayAs": "cards",
-      "collectionsPerPage": 2
+      "collectionsPerPage": 5
     }
   },
   "footerSettings": {
-    "footerTitle": "",
-    "footerSubtitles": [],
-    "footerDescription": ""
+    "footerSubtitles": ["Publish a periodical with the dots_vue application."]
   },
   "tableOfContentsSettings": {
     "tableOfContentDepth": 5,
-    "editByLevel": null,
-    "editByCiteType": ["chapter"
-    ],
+    "editByLevel": 0,
+    "editByCiteType": [],
     "displayTopToc": true
   },
   "aboutPageSettings": [

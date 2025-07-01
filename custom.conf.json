@@ -7,36 +7,31 @@
         "imgName": "Logo_dots_circle.svg",
         "href": "/"
         },
-        "collectionShortTitle": "",
         "appNavBarApiLogo": {
           "imgName": "",
           "href": "/"
         }
       },
       "pageHeader": {
-        "collectionAltTitle": "",
         "aboutButtonText": "about"
       },
       "descriptionSection": {
-        "collectionDescription": "",
-        "customCollectionDescription": { "compName": "HomePageContent" }
       },
       "listSection": {
-        "displayAs": "",
-        "collectionsPerPage": 3,
+        "displayAs": "cards",
+        "collectionsPerPage": 5,
         "logo": "",
         "browseButtonText": "Browse the collection"
       }
     },
     "footerSettings": {
       "footerTitle": "",
-      "footerSubtitles": [
-      ],
-      "footerDescription": "Développé par la Mission projets numériques de l'École nationale des chartes – PSL avec le soutien de Biblissima+. Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-ESRE-0005."
+      "footerSubtitles": [],
+      "footerDescription": "Developed by the Mission projets numériques of the École des chartes - PSL with the support of Biblissima+. Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-ESRE-0005."
     },
     "tableOfContentsSettings": {
       "tableOfContentDepth": 5,
-      "editByLevel": 1,
+      "editByLevel": 0,
       "editByCiteType": [
       ],
       "countByCiteType": [
