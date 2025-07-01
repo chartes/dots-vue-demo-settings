@@ -19,7 +19,7 @@
       },
       "listSection": {
         "displayAs": "cards",
-        "collectionsPerPage": 5,
+        "cardCollectionsPerPage": 5,
         "logo": "",
         "browseButtonText": "Browse the collection"
       }
