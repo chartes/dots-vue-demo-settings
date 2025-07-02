@@ -3,7 +3,7 @@
   "mediaTypeEndpoint": "tei",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": "Thèses, case 1"
+      "collectionShortTitle": "Thesis abstract, case 1"
     },
     "pageHeader": {
       "collectionAltTitle": "Publishing a periodical: thesis abstracts (case 1)",
@@ -14,8 +14,8 @@
       "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
-      "displayAs": "cards",
-      "cardCollectionsPerPage": 5
+      "displayMode": "card",
+      "cardCollectionPerPage": 5
     }
   },
   "footerSettings": {

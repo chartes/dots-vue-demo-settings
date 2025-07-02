@@ -8,25 +8,23 @@
         "href": "/"
         },
         "appNavBarApiLogo": {
-          "imgName": "",
-          "href": "/"
+          "imgName": "logo_api.svg",
+          "href": "https://chartes.github.io/dots_documentation/api/"
         }
       },
       "pageHeader": {
-        "aboutButtonText": "about"
+        "aboutButtonText": "About"
       },
       "descriptionSection": {
       },
       "listSection": {
-        "displayAs": "cards",
-        "cardCollectionsPerPage": 5,
+        "displayMode": "card",
+        "cardCollectionPerPage": 5,
         "logo": "",
         "browseButtonText": "Browse the collection"
       }
     },
     "footerSettings": {
-      "footerTitle": "",
-      "footerSubtitles": [],
       "footerDescription": "Developed by the Mission projets numériques of the École des chartes - PSL with the support of Biblissima+. Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-ESRE-0005."
     },
     "tableOfContentsSettings": {

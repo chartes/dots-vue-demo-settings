@@ -4,28 +4,11 @@
   "homePageSettings": {
     "appNavBar": {
       "collectionShortTitle": "1972"
-    },
-    "pageHeader": {
-      "collectionAltTitle": "Les positions de l'ENC de 1972"
-    },
-    "descriptionSection": {
-      "collectionDescription": "",
-      "customCollectionDescription": {}
-    },
-    "listSection": {
-      "displayAs": "list"
     }
   },
-  "footerSettings": {},
   "tableOfContentsSettings": {
-    "tableOfContentDepth": 5,
-    "editByLevel": 0,
-    "editByCiteType": ["part"],
+    "editByLevel": 1,
+    "editByCiteType": [],
     "displayTopToc": true
-  },
-  "aboutPageSettings": [
-    { "tabName": "Les thèses", "compName": "about1" },
-    { "tabName": "Les positions", "compName": "about2" },
-    { "tabName": "Consultation", "compName": "about3" }
-  ]
+  }
 }

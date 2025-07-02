@@ -1,32 +1,25 @@
 {
   "collectionId": "dots_cookbook",
-  "mediaTypeEndpoint": "html",
   "homePageSettings": {
     "appNavBar": {
-      "appNavBarLogo": {
-       },
-      "collectionShortTitle": "DoTS Cookbook",
-      "appNavBarApiLogo": {
-        "imgName": "logo_api.svg",
-        "href": "https://chartes.github.io/dots_documentation/api/"
-      }
+      "collectionShortTitle": "DoTS Cookbook"
     },
     "pageHeader": {
       "collectionAltTitle": "Publishing corpora with DoTS",
       "aboutButtonText": "About DoTS"
     },
     "descriptionSection": {
-      "collectionDescription": "TODO pour la démo",
+      "collectionDescription": "Cette application met en valeur les fonctionnalités du frontend dots_vue. On apprend à gérer des flux XML/TEI ou HTML, à présenter un projet et à définir le découpage éditorial d’une édition pour la navigation et la lecture.",
       "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
-      "displayAs": "",
-      "cardCollectionsPerPage": 5
+      "displayMode": "card",
+      "cardCollectionPerPage": 5
     }
   },
   "footerSettings": {
     "footerTitle": "DoTS cookbook",
-    "footerSubtitles": ["Publish DoTS recipes with the dots_vue application."]
+    "footerSubtitles": ["Publish DoTS recipes with the dots_vue app."]
   },
-  "collectionCustomCss": "dots_demo_root"
+  "collectionCustomCss": "dots_cookbook"
 }
