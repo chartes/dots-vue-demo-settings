@@ -6,7 +6,7 @@
       "collectionShortTitle": "Molière"
     },
     "pageHeader": {
-      "collectionAltTitle": ""
+      "collectionAltTitle": "Publishing theater: Moliere’s play"
     },
     "descriptionSection": {
       "collectionDescription": "",
@@ -15,22 +15,17 @@
     "listSection": {
       "displayMode": "list",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Frontispiece_to_Moli%C3%A8re%27s_Dom_Juan_by_P_Brissart_1682_-_c%C3%A9sar.jpg",
-      "browseButtonText": "Parcourir la collection"
+      "browseButtonText": "Read Molière's plays"
     }
   },
 "footerSettings": {
-    "footerTitle": "Theater footerTitle",
+    "footerTitle": "DoTS cookbook",
     "footerSubtitles": [
-      "Trois pièces de Molière"
-    ],
-    "footerDescription": ""
+      "Publish Molière’s plays with the dots_vue application."
+    ]
   },
   "tableOfContentsSettings": {
-    "tableOfContentDepth": 5,
-    "editByLevel": 2,
-    "editByCiteType": [
-    ],
     "displayTopToc": true
   },
-  "collectionCustomCss": "moliere"
+  "collectionCustomCss": "theater"
 }

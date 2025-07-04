@@ -1,39 +1,30 @@
 {
   "collectionId": "theater",
-  "mediaTypeEndpoint": "tei",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": "Théâtre"
+      "collectionShortTitle": "Theater"
     },
     "pageHeader": {
       "collectionAltTitle": "",
-      "aboutButtonText": "En savoir plus"
+      "aboutButtonText": "About this recipe"
     },
     "descriptionSection": {
       "collectionDescription": "",
       "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
-      "displayMode": "card",
-      "cardCollectionPerPage": 10,
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Frontispiece_to_Moli%C3%A8re%27s_Dom_Juan_by_P_Brissart_1682_-_c%C3%A9sar.jpg",
-      "browseButtonText": "Parcourir la collection"
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Frontispiece_to_Moli%C3%A8re%27s_Dom_Juan_by_P_Brissart_1682_-_c%C3%A9sar.jpg"
     }
   },
   "footerSettings": {
-    "footerTitle": "Theater footerTitle",
     "footerSubtitles": [
-      "Theater subTitle1",
-      "Theater subTitle2"
-    ],
-    "footerDescription": ""
+      "Publish a play with the dots-vue application"
+    ]
   },
   "tableOfContentsSettings": {
-    "tableOfContentDepth": 3,
-    "editByLevel": 2,
-    "editByCiteType": [
-    ],
-    "displayTopToc": false
+    "tableOfContentDepth": 2,
+    "editByCiteType": ["scene"]
   },
-  "collectionCustomCss": "theater"
+  "collectionCustomCss": "theater",
+  "excludeCollectionIds": ["comedie"]
 }

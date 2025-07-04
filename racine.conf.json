@@ -1,0 +1,12 @@
+{
+  "collectionId": "racine",
+  "homePageSettings": {
+    "appNavBar": {
+      "collectionShortTitle": "Racine"
+    }
+  },
+  "tableOfContentsSettings": {
+    "tableOfContentDepth": 3,
+    "editByCiteType": ["act"]
+  }
+}

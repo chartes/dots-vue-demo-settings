@@ -11,10 +11,6 @@
     "descriptionSection": {
       "collectionDescription": "Cette application met en valeur les fonctionnalités du frontend dots_vue. On apprend à gérer des flux XML/TEI ou HTML, à présenter un projet et à définir le découpage éditorial d’une édition pour la navigation et la lecture.",
       "customCollectionDescription": { "compName": "HomePageContent" }
-    },
-    "listSection": {
-      "displayMode": "card",
-      "cardCollectionPerPage": 5
     }
   },
   "footerSettings": {

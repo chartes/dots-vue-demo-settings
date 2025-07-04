@@ -1,12 +1,12 @@
 {
-  "collectionId": "ENCPOS",
-  "mediaTypeEndpoint": "tei",
+  "collectionId": "ENCPOS_c2",
+  "mediaTypeEndpoint": "html",
   "homePageSettings": {
     "appNavBar": {
-      "collectionShortTitle": "Thesis abstract, case 1"
+      "collectionShortTitle": "Thesis abstract, case 2"
     },
     "pageHeader": {
-      "collectionAltTitle": "Publishing a periodical: thesis abstracts (case 1)",
+      "collectionAltTitle": "Publishing a periodical: thesis abstracts (case 2)",
       "aboutButtonText": "About this recipe"
     },
     "descriptionSection": {
@@ -14,15 +14,14 @@
       "customCollectionDescription": { "compName": "HomePageContent" }
     },
     "listSection": {
-      "cardCollectionPerPage": 3
+      "displayMode": "list",
+      "browseButtonText": "Annual volume list"
     }
   },
   "footerSettings": {
     "footerSubtitles": ["Publish a periodical with the dots_vue application."]
   },
   "tableOfContentsSettings": {
-    "editByLevel": 0,
-    "editByCiteType": [],
     "displayTopToc": true
   },
   "aboutPageSettings": [
@@ -30,5 +29,5 @@
     { "tabName": "Les positions", "compName": "about2" },
     { "tabName": "Consultation", "compName": "about3" }
   ],
-  "collectionCustomCss": false
+  "collectionCustomCss": true
 }
