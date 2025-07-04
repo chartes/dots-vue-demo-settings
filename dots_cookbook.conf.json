@@ -17,5 +17,10 @@
     "footerTitle": "DoTS cookbook",
     "footerSubtitles": ["Publish DoTS recipes with the dots_vue app."]
   },
+  "aboutPageSettings": [
+    { "tabName": "About DTS", "compName": "about1" },
+    { "tabName": "About DoTS", "compName": "about2" },
+    { "tabName": "Scenario user guide", "compName": "about3" }
+  ],
   "collectionCustomCss": "dots_cookbook"
 }
