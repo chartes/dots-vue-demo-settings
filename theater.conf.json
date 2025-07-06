@@ -25,6 +25,12 @@
     "tableOfContentDepth": 2,
     "editByCiteType": ["scene"]
   },
+  "aboutPageSettings": [
+    { "tabName": "Segmentation", "compName": "about1" },
+    { "tabName": "What we learn", "compName": "about2" },
+    { "tabName": "Overview", "compName": "about3" },
+    null
+  ],
   "collectionCustomCss": "theater",
   "excludeCollectionIds": ["comedie"]
 }

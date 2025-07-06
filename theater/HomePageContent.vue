@@ -1,26 +1,26 @@
 <template>
   <article class="about">
     <div class="about-content app-width-padding">
-      <h1>A custom description for theater</h1>
-      <h2>In the default custom component, you can use either: </h2>
+      <h1>Theater</h1>
+      <h2>Publish collections of plays</h2>
       <p>
-        <b>a DTS API collection description if available:</b>
+        <a href="https://chartes.github.io/dots_documentation/cookbook/theater/" target="_blank">This recipe</a> details the possibilities offered by DoTS for publishing plays.
       </p>
+      <p>
+        The aim is to be able to describe, quote and republish : an act, a scene, a turn of speech, possibly a stanza or verse.<br>
+        For research purposes, we can also automatically extract all the turns of speech of a given character.
+      </p>
+      <p>
+        Here, we take the example of plays by Molière and Racine.
+      </p>
+      <!--
       <p>
         {{ dtsCollDescription ? dtsCollDescription : 'No DTS API collection description available' }}
       </p>
       <p>
-        <b>a custom collection description (homePageSettings.collectionDescription) if available:</b>
-      </p>
-      <p>
         {{ customCollDescription ? customCollDescription : 'No homePageSettings.collectionDescription available' }}
       </p>
-      <p>
-        <b>...or use a complete custom default description:</b>
-      </p>
-      <p>
-        This is a custom description for the theater collection.
-      </p>
+      -->
     </div>
   </article>
 
