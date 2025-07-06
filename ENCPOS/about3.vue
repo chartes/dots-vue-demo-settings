@@ -46,10 +46,10 @@ default.conf.json (dots-vue)
             <tr>
               <th>parameter</th>
               <th><code>default</code></th>
-              <th><code>custom</code></th>
-              <th><code>dots_cookbook</code></th>
-              <th><code>encpos</code></th>
-              <th> last coll.</th>
+              <th>> <code>custom</code></th>
+              <th>> <code>dots_cookbook</code></th>
+              <th>> <code>encpos</code></th>
+              <th>> last coll.</th>
               <th>last coll. ids</th>
               <th>example</th>
             </tr>
@@ -144,8 +144,8 @@ default.conf.json (dots-vue)
           </tbody>
         </table>
         <p>
-          Let's take the example of format (parameter <code>mediaTypeEndpoint</code>).<br>
-          By default, dots-vue serves data in XML/TEI (<code>default.conf.json</code>). This setting is redefined for the entire dots-vue-demo project (<code>custom.conf.json</code>).
+          Let's take the example of the <code>mediaTypeEndpoint</code> format parameter. By default, dots-vue serves data in XML/TEI (<code>default.conf.json</code>).
+          This setting is redefined for the entire dots-vue-demo project (<code>custom.conf.json</code>).
           An exception is made for this recipe, whose default format is XML/TEI (<code>encpos.conf.json</code>).
           Finally, the 1972 volume is given special treatment, with the choice of HTML (<code>encpos_1972.conf.json</code>).
         </p>

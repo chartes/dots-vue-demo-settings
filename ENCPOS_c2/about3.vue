@@ -1,22 +1,18 @@
 <template>
   <article class="about">
-    <div class="title app-width-padding">Scenario user guide Title</div>
+    <div class="title app-width-padding">Settings cascade</div>
     <div class="about-content app-width-padding">
-      <h2>Title 2</h2>
-      <h3>Title 3</h3>
-      <h4>Synthèse. Cascade de configuration</h4>
-
+      <h2>Recipe settings overview (Thesis abstract, case 2)</h2>
       <!-- Code block -->
       <pre>
-        default.conf.json (dots-vue)
-          > custom.conf.json (dots-vue-demo-settings)
-            > dots_cookbook.conf.json
-              > encpos.conf.json
-                > encpos_1849.json
-                > encpos_1971.json
-                > encpos_1972.json
+default.conf.json (dots-vue)
+  > custom.conf.json (dots-vue-demo-settings)
+    > dots_cookbook.conf.json
+      > encpos_c2.conf.json
       </pre>
-
+      <p>
+        The table below illustrates the cascade for different parameters.
+      </p>
       <!-- Table -->
       <div class="table-container mt-5">
         <table class="table is-striped is-hoverable is-bordered is-fullwidth">
@@ -24,11 +20,9 @@
             <tr>
               <th>parameter</th>
               <th><code>default</code></th>
-              <th><code>custom</code></th>
-              <th><code>dots_cookbook</code></th>
-              <th><code>encpos</code></th>
-              <th> last coll.</th>
-              <th>last coll. ids</th>
+              <th>> <code>custom</code></th>
+              <th>> <code>dots_cookbook</code></th>
+              <th>> <code>encpos_c2</code></th>
               <th>example</th>
             </tr>
           </thead>
@@ -38,25 +32,9 @@
               <td>tei</td>
               <td>html</td>
               <td>→ (html)</td>
-              <td>tei</td>
-              <td>→ (tei)</td>
+              <td>→ (html)</td>
               <td>
-                <code>ENCPOS_1849</code> <code>ENCPOS_1971</code>
-              </td>
-              <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>html</td>
-              <td><code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
+                <a target='_blank' :href=exampleUrl1>refId=ENCPOS_1971_12</a>
               </td>
             </tr>
             <tr>
@@ -64,11 +42,9 @@
               <td>card</td>
               <td>card</td>
               <td>→ (card)</td>
-              <td>→ (card)</td>
-              <td>not relevant</td>
-              <td></td>
+              <td>list (no choice)</td>
               <td>
-                <a target='_blank' :href=exampleUrl4>Example 4</a>
+                <a target='_blank' :href=exampleUrl2>refId=ENCPOS_1972_18</a>
               </td>
             </tr>
             <tr>
@@ -76,35 +52,17 @@
               <td>5</td>
               <td>5</td>
               <td>→ (5)</td>
-              <td>3</td>
               <td>not relevant</td>
               <td></td>
-              <td>
-                <a target='_blank' :href=exampleUrl5>Example 5</a>
-              </td>
             </tr>
             <tr>
               <td><code>editByLevel</code></td>
               <td>1</td>
               <td>1</td>
               <td>→ (1)</td>
-              <td>0 (document)</td>
-              <td>→ (0)</td>
-              <td><code>ENCPOS_1849</code> <code>ENCPOS_1971</code></td>
+              <td>→ (1)</td>
               <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>1 (part)</td>
-              <td><code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
+                <a target='_blank' :href=exampleUrl1>refId=ENCPOS_1971_12</a>
               </td>
             </tr>
             <tr>
@@ -113,11 +71,7 @@
               <td>5</td>
               <td>→ (5)</td>
               <td>→ (5)</td>
-              <td>→ (5)</td>
-              <td><code>ENCPOS_1849</code> <code>ENCPOS_1971</code> <code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a> <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
-              </td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -145,12 +99,11 @@ export default {
     console.log('About 3 setup window.location.origin : ', window.location.origin)
     console.log('About 3 setup router.currentRoute : ', router.currentRoute)
     console.log('About 3 setup appBaseUrl : ', appBaseUrl)
-    const example1 = ref('ENCPOS_1849_04')
-    const example2 = ref('ENCPOS_1971_09')
-    const example3 = ref('ENCPOS_1972_18')
-    const exampleUrl1 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example1.value}`)
-    const exampleUrl2 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example2.value}`)
-    const exampleUrl3 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example3.value}`)
+    const example1 = ref('ENCPOS_1971_c2?refId=ENCPOS_1971_12')
+    const example2 = ref('ENCPOS_1972_c2?refId=ENCPOS_1972_18')
+    // http://localhost:5173/ENCPOS_c2/document/ENCPOS_1971_c2?refId=ENCPOS_1971_12
+    const exampleUrl1 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS_c2/document/${example1.value}`)
+    const exampleUrl2 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS_c2/document/${example2.value}`)
 
     console.log('About 3 setup exampleUrl1 : ', exampleUrl1.value)
 
@@ -159,7 +112,6 @@ export default {
       console.log('About 3 watch appBaseUrl : ', appBaseUrl.value)
       exampleUrl1.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example1.value}`
       exampleUrl2.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example2.value}`
-      exampleUrl3.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example3.value}`
       console.log('About 3 watch exampleUrl1 : ', exampleUrl1.value)
     }, { immediate: true })
 
@@ -167,10 +119,8 @@ export default {
       appBaseUrl,
       example1,
       example2,
-      example3,
       exampleUrl1,
-      exampleUrl2,
-      exampleUrl3
+      exampleUrl2
     }
   }
 }

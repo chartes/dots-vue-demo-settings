@@ -4,10 +4,10 @@
     <div class="about-content app-width-padding">
       <h2></h2>
       <p>
-        Le livre de recettes DoTS est conçu pour apprendre à publier une collection de textes avec DoTS, pour différents types de publication et genres littéraires, et selon différentes logiques éditoriales.
+        The DoTS cookbook is designed to teach you how to publish a collection of texts with DoTS, for different types of publication and literary genres, and according to different editorial logics.
       </p>
       <p>
-        Cette application met en valeur les fonctionnalités du frontend DoTS-Vue. On apprend à gérer des flux XML/TEI ou HTML, à présenter un projet et à définir le découpage éditorial d’une édition pour la navigation et la lecture.
+        This application showcases the functionalities of the DoTS-Vue frontend. You'll learn how to manage XML/TEI or HTML data, present a project and define the editorial breakdown of an edition for navigation and reading.
       </p>
       <p>
         <a href="https://chartes.github.io/dots_documentation/cookbook/" target="_blank">https://chartes.github.io/dots_documentation/cookbook/</a>

@@ -26,8 +26,8 @@
     "displayTopToc": true
   },
   "aboutPageSettings": [
-    { "tabName": "What we learn", "compName": "about1" },
-    { "tabName": "Segmentation", "compName": "about2" },
+    { "tabName": "Segmentation", "compName": "about1" },
+    { "tabName": "What we learn", "compName": "about2" },
     { "tabName": "Overview", "compName": "about3" }
   ],
   "collectionCustomCss": false

@@ -1,188 +1,57 @@
 <template>
   <article class="about">
-    <div class="title app-width-padding">Scenario user guide Title</div>
+    <div class="title app-width-padding">Collection, document, fragment: editorial segmentation</div>
     <div class="about-content app-width-padding">
-      <h2>Title 2</h2>
-      <h3>Title 3</h3>
-      <h4>Synthèse. Cascade de configuration</h4>
-
-      <!-- Code block -->
+      <h2>Thesis abstract as a fragment</h2>
+      <p>
+        In this case, the publisher wishes to emphasize the material structuring of the corpus: each year is a volume considered as a document.
+        Consequently, each position becomes a fragment of this document.
+      </p>
+      <p>
+        The hierarchy is as follows:
+      </p>
       <pre>
-        default.conf.json (dots-vue)
-          > custom.conf.json (dots-vue-demo-settings)
-            > dots_cookbook.conf.json
-              > encpos.conf.json
-                > encpos_1849.json
-                > encpos_1971.json
-                > encpos_1972.json
+encpos_c2                   collection (level 1)
+  > year                    document
+    > abstract              fragment (level 1)
+      > section             fragment (level 2, i.e. part)
+        > sub-section       fragment (level 3, i.e. chapter)
       </pre>
-
-      <!-- Table -->
-      <div class="table-container mt-5">
-        <table class="table is-striped is-hoverable is-bordered is-fullwidth">
-          <thead>
-            <tr>
-              <th>parameter</th>
-              <th><code>default</code></th>
-              <th><code>custom</code></th>
-              <th><code>dots_cookbook</code></th>
-              <th><code>encpos</code></th>
-              <th> last coll.</th>
-              <th>last coll. ids</th>
-              <th>example</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><code>mediaTypeEndpoint</code></td>
-              <td>tei</td>
-              <td>html</td>
-              <td>→ (html)</td>
-              <td>tei</td>
-              <td>→ (tei)</td>
-              <td>
-                <code>ENCPOS_1849</code> <code>ENCPOS_1971</code>
-              </td>
-              <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>html</td>
-              <td><code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td><code>displayMode</code></td>
-              <td>card</td>
-              <td>card</td>
-              <td>→ (card)</td>
-              <td>→ (card)</td>
-              <td>not relevant</td>
-              <td></td>
-              <td>
-                <a target='_blank' :href=exampleUrl4>Example 4</a>
-              </td>
-            </tr>
-            <tr>
-              <td><code>cardCollectionPerPage</code></td>
-              <td>5</td>
-              <td>5</td>
-              <td>→ (5)</td>
-              <td>3</td>
-              <td>not relevant</td>
-              <td></td>
-              <td>
-                <a target='_blank' :href=exampleUrl5>Example 5</a>
-              </td>
-            </tr>
-            <tr>
-              <td><code>editByLevel</code></td>
-              <td>1</td>
-              <td>1</td>
-              <td>→ (1)</td>
-              <td>0 (document)</td>
-              <td>→ (0)</td>
-              <td><code>ENCPOS_1849</code> <code>ENCPOS_1971</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>1 (part)</td>
-              <td><code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
-              </td>
-            </tr>
-            <tr>
-              <td><code>tableOfContentDepth</code></td>
-              <td>5</td>
-              <td>5</td>
-              <td>→ (5)</td>
-              <td>→ (5)</td>
-              <td>→ (5)</td>
-              <td><code>ENCPOS_1849</code> <code>ENCPOS_1971</code> <code>ENCPOS_1972</code></td>
-              <td>
-                <a target='_blank' :href=exampleUrl1>{{ example1 }}</a> <a target='_blank' :href=exampleUrl2>{{ example2 }}</a> <a target='_blank' :href=exampleUrl3>{{ example3 }}</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <p>NB. The editorial structure of this recipe (Thesis abstract, case 2) offers less flexibility than the other (Thesis abstract, case 1).
+        With a single level 1 collection, we don't have the option of defining specific settings for each annual volume (document, not collection).
+      </p>
+      <h2>Define editorial segmentation for display</h2>
+      <p>
+        The various fragments (abstract, part, chapter) of each volume are declared in the endpoint Navigation response, for example:
+        <a href="https://dots.chartes.psl.eu/demo/api/dts/navigation?resource=ENCPOS_1972_c2&down=-1" target="_blank">https://dots.chartes.psl.eu/demo/api/dts/navigation?resource=ENCPOS_1972_c2&down=-1</a>
+      </p>
+      <p>
+        Would you like to consult the all annual volume on a single page? Or do you want to browse by abstract, part or chapter?
+        You can define this editorial segmentation for each collection in its JSON configuration file, using the <code>editByLevel</code> parameter.
+      </p>
+      <p>
+        In this recipe, we choose to leaf through the collection at the thesis abstract level.
+      </p>
+      <h2>Table of contents depth</h2>
+      <p>
+        Independently of this editorial segmentation, it is possible to define the depth of a document's table of contents (TOC) using
+        the <code>tableOfContentDepth</code> query parameter.
+      </p>
+      <p>
+        No need to define this depth level for our collection (<code>encpos_c2.conf.json</code>), since we inherit the setting
+        defined in the project's default configuration in <code>custom.conf.json</code>: <code>"tableOfContentDepth": 5</code>
+      </p>
     </div>
   </article>
 
 </template>
 <script>
-import { ref, watch, computed } from 'vue'
-import { useRoute } from 'vue-router'
-import router from '@/router'
-
 export default {
-  name: 'AboutThirdSection',
-  props: {
-    applicationBaseUrl: {
-      type: String,
-    },
-  },
-  setup (props) {
-    const route = useRoute()
-    const appBaseUrl = ref(props.applicationBaseUrl)
-    console.log('About 3 setup route : ', route)
-    console.log('About 3 setup window.location.origin : ', window.location.origin)
-    console.log('About 3 setup router.currentRoute : ', router.currentRoute)
-    console.log('About 3 setup appBaseUrl : ', appBaseUrl)
-    const example1 = ref('ENCPOS_1849_04')
-    const example2 = ref('ENCPOS_1971_09')
-    const example3 = ref('ENCPOS_1972_18')
-    const exampleUrl1 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example1.value}`)
-    const exampleUrl2 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example2.value}`)
-    const exampleUrl3 = computed(() => `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example3.value}`)
+  name: 'AboutSecondSection',
 
-    console.log('About 3 setup exampleUrl1 : ', exampleUrl1.value)
-
-    watch(props, (newProps) => {
-      appBaseUrl.value = newProps.applicationBaseUrl
-      console.log('About 3 watch appBaseUrl : ', appBaseUrl.value)
-      exampleUrl1.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example1.value}`
-      exampleUrl2.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example2.value}`
-      exampleUrl3.value = `${window.location.origin}${appBaseUrl.value}ENCPOS/document/${example3.value}`
-      console.log('About 3 watch exampleUrl1 : ', exampleUrl1.value)
-    }, { immediate: true })
-
-    return {
-      appBaseUrl,
-      example1,
-      example2,
-      example3,
-      exampleUrl1,
-      exampleUrl2,
-      exampleUrl3
-    }
+  setup () {
   }
 }
 </script>
 <style scoped>
-.table-container {
-  text-align: center;
-  font-size: 12px;
-}
-.table-container td,
-.table-container th {
-  padding: 0.10rem 0.10rem;
-}
 </style>
-

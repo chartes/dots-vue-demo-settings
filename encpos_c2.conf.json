@@ -1,6 +1,5 @@
 {
   "collectionId": "ENCPOS_c2",
-  "mediaTypeEndpoint": "html",
   "homePageSettings": {
     "appNavBar": {
       "collectionShortTitle": "Thesis abstract, case 2"
@@ -25,9 +24,9 @@
     "displayTopToc": true
   },
   "aboutPageSettings": [
-    { "tabName": "Les thèses", "compName": "about1" },
-    { "tabName": "Les positions", "compName": "about2" },
-    { "tabName": "Consultation", "compName": "about3" }
+    { "tabName": "Segmentation", "compName": "about1" },
+    { "tabName": "What we learn", "compName": "about2" },
+    { "tabName": "Overview", "compName": "about3" }
   ],
   "collectionCustomCss": true
 }

@@ -3,11 +3,10 @@
     <div class="title app-width-padding">What is DoTS?</div>
     <div class="about-content app-width-padding">
       <h2></h2>
+      <p>DoTS is an XQuery implementation of the DTS (<a href="https://distributed-text-services.github.io/specifications/" target="_blank">Distributed Text Services</a>)
+        API specification, based on the <a href="https://basex.org/" target="_blank">BaseX</a> XML database software.</p>
       <p>
-        DoTS est une implémentation en XQuery de la spécification d'API DTS (<a href="https://distributed-text-services.github.io/specifications/" target="_blank">Distributed Text Services</a>), adossée au logiciel de base de données XML <a href="https://basex.org/" target="_blank">BaseX</a>.
-      </p>
-      <p>
-        DoTS permet de publier aisément des sources en XML/TEI selon les principes FAIR (Findable, Accessible, Interoperable, Reusable).
+        DoTS makes it easy to publish sources in XML/TEI according to the FAIR (Findable, Accessible, Interoperable, Reusable) principles.
       </p>
       <p>
         <a href="https://chartes.github.io/dots_documentation/" target="_blank">DoTS Documentation</a>
@@ -49,7 +48,7 @@
 export default {
   name: 'AboutSecondSection',
 
-  setup () {
+  setup() {
   }
 }
 </script>
