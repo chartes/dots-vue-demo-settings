@@ -26,9 +26,9 @@
     "displayTopToc": true
   },
   "aboutPageSettings": [
-    { "tabName": "Les thèses", "compName": "about1" },
-    { "tabName": "Les positions", "compName": "about2" },
-    { "tabName": "Consultation", "compName": "about3" }
+    { "tabName": "What we learn", "compName": "about1" },
+    { "tabName": "Segmentation", "compName": "about2" },
+    { "tabName": "Overview", "compName": "about3" }
   ],
   "collectionCustomCss": false
 }

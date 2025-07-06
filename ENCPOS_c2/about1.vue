@@ -1,44 +1,22 @@
 <template>
   <article class="about">
-    <div class="title app-width-padding">Settings cascade</div>
+    <div class="title app-width-padding">Scenario user guide Title</div>
     <div class="about-content app-width-padding">
-      <h2>Principle</h2>
-      <p>
-        To configure the display of a project or a collection, it is not recommended modifying the default dots-vue configuration file (<code>default.conf.json</code>).
-      </p>
-      <p>
-        Create instead a dedicated project (here <a href="https://github.com/chartes/dots-vue-demo-settings" target="_blank">dots-vue-demo-settings</a>) which will be called when the dots-vue application is launched:<br>
-        <code>dots-vue % CUSTOM_SETTINGS_PATH=../dots-vue-demo-settings yarn serve</code>
-      </p>
-      <p>
-        In this settings project, you can redefine the default settings (in <code>custom.conf.json</code>), and then specify them for each collection
-        in a configuration JSON file named <code>{collection_id}.conf.json</code>.<br>
-        The settings cascade is as follows:
-      </p>
-      <pre>
-> default.conf.json						dots-vue
-	> custom.conf.json					settings-project
-		> collection.conf.json
-			> sub-collection.conf.json
-				> …
-      </pre>
-      <p>Inheritances can be difficult to understand. This is the case in this recipe, where many different cases are presented.
-        The following section provides an overview of these inheritances to help you understand how they work.
-      </p>
-      <h2>Recipe settings overview (Thesis abstract, case 1)</h2>
+      <h2>Title 2</h2>
+      <h3>Title 3</h3>
+      <h4>Synthèse. Cascade de configuration</h4>
+
       <!-- Code block -->
       <pre>
-default.conf.json (dots-vue)
-  > custom.conf.json (dots-vue-demo-settings)
-    > dots_cookbook.conf.json
-      > encpos.conf.json
-        > encpos_1849.json
-        > encpos_1971.json
-        > encpos_1972.json
+        default.conf.json (dots-vue)
+          > custom.conf.json (dots-vue-demo-settings)
+            > dots_cookbook.conf.json
+              > encpos.conf.json
+                > encpos_1849.json
+                > encpos_1971.json
+                > encpos_1972.json
       </pre>
-      <p>
-        The table below illustrates the cascade for different parameters.
-      </p>
+
       <!-- Table -->
       <div class="table-container mt-5">
         <table class="table is-striped is-hoverable is-bordered is-fullwidth">
@@ -143,12 +121,6 @@ default.conf.json (dots-vue)
             </tr>
           </tbody>
         </table>
-        <p>
-          Let's take the example of format (parameter <code>mediaTypeEndpoint</code>).<br>
-          By default, dots-vue serves data in XML/TEI (<code>default.conf.json</code>). This setting is redefined for the entire dots-vue-demo project (<code>custom.conf.json</code>).
-          An exception is made for this recipe, whose default format is XML/TEI (<code>encpos.conf.json</code>).
-          Finally, the 1972 volume is given special treatment, with the choice of HTML (<code>encpos_1972.conf.json</code>).
-        </p>
       </div>
     </div>
   </article>

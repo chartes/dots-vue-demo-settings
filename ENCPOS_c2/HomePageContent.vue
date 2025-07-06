@@ -1,13 +1,13 @@
 <template>
   <article class="about">
     <div class="about-content app-width-padding">
-      <h1>ENCPOS – Periodical case 1</h1>
-      <h2>Volume as collection, article as document</h2>
+      <h1>ENCPOS_c2 – Periodical case 2</h1>
+      <h2>Volume as document, article as fragment</h2>
       <p>
         A periodical is a regular, collective publication, such as the annual proceedings of a conference. Here we take the example of the École des Chartes' annual publication of thesis abstracts.
       </p>
       <p>
-      <a href="https://chartes.github.io/dots_documentation/cookbook/periodical/#cas-1-un-article-est-un-document" target="_blank">This recipe (ENCPOS)</a> illustrates one way of publishing a periodical, with an XML/TEI file for each abstract. The annual volume of abstracts is a collection.
+      <a href="https://chartes.github.io/dots_documentation/cookbook/periodical/#cas-2-un-article-est-un-fragment" target="_blank">This recipe (ENCPOS_c2)</a> illustrates one way of publishing a periodical, with an XML/TEI file for each volume. Each abstract is a fragment of these volumes.
       </p>
       <!--
       <p>
