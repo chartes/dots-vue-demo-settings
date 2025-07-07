@@ -130,8 +130,6 @@ default.conf.json                     dots-vue
 </template>
 <script>
 import { ref, watch, computed } from 'vue'
-import { useRoute } from 'vue-router'
-import router from '@/router'
 
 export default {
   name: 'AboutThirdSection',
@@ -141,11 +139,8 @@ export default {
     },
   },
   setup (props) {
-    const route = useRoute()
     const appBaseUrl = ref(props.applicationBaseUrl)
-    console.log('About 3 setup route : ', route)
     console.log('About 3 setup window.location.origin : ', window.location.origin)
-    console.log('About 3 setup router.currentRoute : ', router.currentRoute)
     console.log('About 3 setup appBaseUrl : ', appBaseUrl)
     const example1 = ref('moliere_dom-juan?refId=a3-s3')
     const example2 = ref('racine_andromaque?refId=a5')
