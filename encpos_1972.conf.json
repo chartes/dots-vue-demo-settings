@@ -4,6 +4,9 @@
   "homePageSettings": {
     "appNavBar": {
       "collectionShortTitle": "1972"
+    },
+    "listSection": {
+      "logo": "https://api.nakala.fr/iiif/10.34847/nkl.d855me20/a9153403104b9d8e35c177a9f3da69019fb58c55/full/180,/0/default.jpg"
     }
   },
   "tableOfContentsSettings": {

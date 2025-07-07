@@ -3,6 +3,9 @@
   "homePageSettings": {
     "appNavBar": {
       "collectionShortTitle": "1849"
+    },
+    "listSection": {
+      "logo": "theses_1849.jpg"
     }
   }
 }
