@@ -17,6 +17,10 @@
       <p>
         To understand this settings cascade, see Overview tab.
       </p>
+      <h2>Select collections to display</h2>
+      <p>
+        <code>"excludeCollectionIds": ["comedie"]</code> => TODO
+      </p>
     </div>
   </article>
 
