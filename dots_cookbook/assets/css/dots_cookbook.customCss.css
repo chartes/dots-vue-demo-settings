@@ -1,10 +1,26 @@
+/*=============================================================
+ PART 1
+ Updating the css color schema for:
+  - the collection dots_cookbook
+  - its children (unless otherwise specified)
+ =============================================================*/
+/* Using themes TODO working in dev but not in build :
 [data-theme="red"] {
   --text-color: #4051b5;
   --fill-color: #4051b5;
-}
-/*nav.level {
-  background-color: var(--fill-color) !important;
 }*/
+/* Using css variables */
+:root {
+  --text-color: #4051b5;
+  --fill-color: #4051b5;
+}
+
+/*=============================================================
+ PART 2
+ Updating the css of specific elements (HTML) for:
+  - the collection dots_cookbook
+  - its children (unless otherwise specified)
+ =============================================================*/
 .about > h1 {
   font-style: italic !important;
 }
@@ -14,8 +30,12 @@ button {
   }
 }
 
-
-
+/*=============================================================
+ PART 3
+ Updating the css of the DTS API tei response for:
+  - the collection dots_cookbook
+  - its children (unless otherwise specified)
+ =============================================================*/
 .document-views > * {
   .row:not(.remove-bottom-padding):not(.bottom-toc) {
     & tei > div {
@@ -76,8 +96,6 @@ button {
       color: #3e3b36;
     }
   }
-
-
   span.left {
     font-weight: bold !important;
   }
