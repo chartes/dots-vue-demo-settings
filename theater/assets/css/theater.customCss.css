@@ -99,6 +99,7 @@ button {
   }
   s {
     font-variant: normal;
+    padding-left: 5px;
     & > hi {
       background-color: transparent;
       color: #3e3b36;
