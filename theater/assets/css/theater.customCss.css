@@ -39,14 +39,17 @@ button {
   .row:not(.remove-bottom-padding):not(.bottom-toc) {
     & tei > div {
       margin: 20px 100px 20px 100px;
-      padding: 30px;
+      padding: 30px 30px 44px;
       border-radius: 5px;
       border: 1px solid #d8d0be;
       box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.3);
       background: url('../images/piece_fond.jpg') center top #fffbf5;
       text-align: center;
       color: #3e3b36;
+      @media screen and (max-width: 500px) {
+        margin: 20px 5px 20px 5px;
       }
+    }
     & tei > div > p {
       text-align: center;
       font-size: larger;
@@ -67,12 +70,15 @@ button {
     color: #4e4940;
     text-shadow: 1px 2px 2px #bbb;
     background-color: transparent;
+    padding-left: 0 !important;
   }
   l {
     font-variant: normal;
   }
   stage, sp, s {
-    margin: 16px auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 0;
     font-family: "Linux Libertine", "Times New Roman", Times, "Liberation Serif", FreeSerif, serif !important;
   }
   stage, sp {
