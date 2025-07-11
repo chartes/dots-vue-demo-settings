@@ -4,17 +4,23 @@
     <div class="about-content app-width-padding">
       <h2>Recipe settings overview (Thesis abstract, case 2)</h2>
       <!-- Code block -->
-      <pre>
+      <pre class="desktop">
 default.conf.json (dots-vue)
   > custom.conf.json (dots-vue-demo-settings)
     > dots_cookbook.conf.json
       > encpos_c2.conf.json
       </pre>
+      <pre class="responsive">
+default.conf.json (dots-vue)
+> custom.conf.json (dots-vue-demo-settings)
+ > dots_cookbook.conf.json
+  > encpos_c2.conf.json
+      </pre>
       <p>
         The table below illustrates the cascade for different parameters.
       </p>
       <!-- Table -->
-      <div class="table-container mt-5">
+      <div class="table-container desktop mt-5">
         <table class="table is-striped is-hoverable is-bordered is-fullwidth">
           <thead>
             <tr>
@@ -76,6 +82,146 @@ default.conf.json (dots-vue)
           </tbody>
         </table>
       </div>
+      <!-- Table responsive -->
+      <div class="table-container responsive mt-5">
+        <table class="table is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th>parameter</th>
+              <th>cascade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>mediaTypeEndpoint</code></td>
+              <td>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>default</b></span>
+                  <span>tei</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>custom</b></span>
+                  <span>html</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span>
+                  <span>→ (html)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>encpos_c2</b></span>
+                  <span>→ (html)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span class="no-min-width"><b>example</b></span>
+                  <span class="no-min-width">
+                    <a target="_blank" :href="exampleUrl1">ENCPOS_1971_12</a>
+                  </span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><code>displayMode</code></td>
+              <td>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>default</b></span>
+                  <span>card</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>custom</b></span>
+                  <span>card</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span>
+                  <span>→ (card)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span class="no-min-width"><b>encpos_c2</b></span>
+                  <span class="no-min-width">list (no choice)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span class="no-min-width"><b>example</b></span>
+                  <span class="no-min-width">
+                    <a target="_blank" :href="exampleUrl2">ENCPOS_1972_18</a>
+                  </span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><code>cardCollectionPerPage</code></td>
+              <td>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>default</b></span>
+                  <span>5</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>custom</b></span>
+                  <span>5</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span>
+                  <span>→ (5)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span class="no-min-width"><b>encpos_c2</b></span>
+                  <span class="no-min-width">not relevant</span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><code>editByLevel</code></td>
+              <td>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>default</b></span>
+                  <span>1</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>custom</b></span>
+                  <span>1</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span>
+                  <span>→ (1)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>encpos_c2</b></span>
+                  <span>→ (1)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span class="no-min-width"><b>example</b></span>
+                  <span class="no-min-width">
+                    <a target="_blank" :href="exampleUrl1">ENCPOS_1971_12</a>
+                  </span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td><code>tableOfContentDepth</code></td>
+              <td>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>default</b></span>
+                  <span>5</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>custom</b></span>
+                  <span>5</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span>
+                  <span>→ (5)</span>
+                </div>
+                <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+                  <span><b>encpos_c2</b></span>
+                  <span>→ (5)</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </article>
 
@@ -121,13 +267,53 @@ export default {
 }
 </script>
 <style scoped>
-.table-container {
+table {
+  width:100%;
   text-align: center;
   font-size: 12px;
 }
-.table-container td,
-.table-container th {
+table td,
+table th {
+  white-space: nowrap;
+  text-align: left;
   padding: 0.10rem 0.10rem;
+  & > b, > div > span > b {
+    color:black;
+    font-weight: bolder;
+  }
+  & > div > span:not(.no-min-width)  {
+    min-width: 70%;
+  }
+}
+table td:last-child {
+  width:100%;
+}
+.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .table-container.responsive {
+    display: block;
+    & > table tr, th {
+      border: 1px solid;
+    }
+    & > table td {
+      border-top: none;
+      border-bottom: none;
+      border-left: 1px solid;
+    }
+  }
+  pre.responsive {
+    display: block;
+    white-space: pre-wrap;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 </style>
 

@@ -15,8 +15,8 @@ default.conf.json                     dots-vue
       <p>
         The table below illustrates the cascade for different parameters.
       </p>
-      <!-- Table -->
-      <div class="table-container mt-5">
+      <!-- Table responsive -->
+      <div class="table-container desktop mt-5">
         <table class="table is-striped is-hoverable is-bordered is-fullwidth">
           <thead>
             <tr>
@@ -124,6 +124,195 @@ default.conf.json                     dots-vue
           </tbody>
         </table>
       </div>
+      <!-- Table responsive -->
+      <div class="table-container responsive mt-5">
+        <table class="table is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th>parameter</th>
+              <th>cascade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>mediaTypeEndpoint</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span>tei</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span>html</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span>→ (html)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span>→ (html)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>→ (html)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span><span><code>racine</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span class="no-min-width"><b>example</b></span>
+                  <span class="no-min-width"><a target="_blank" :href="exampleUrl2">Andromaque V</a></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>tei</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span><span><code>moliere</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span class="no-min-width"><b>example</b></span>
+                  <span class="no-min-width"><a target="_blank" :href="exampleUrl1">Dom Juan III,3</a></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>displayMode</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span>card</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span>card</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span>→ (card)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span>→ (card)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>not relevant</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>cardCollectionPerPage</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span>5</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span>5</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span>→ (5)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span>→ (5)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>not relevant</span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>editByLevel</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span>1</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span>1</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span>→ (1)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span>–</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>–</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span>
+                  <span><code>moliere</code><br><code>racine</code></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>editByCiteType</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span><code>null</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span><code>null</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span><code>null</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span><code>scene</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>→ (<code>scene</code>)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span><span><code>moliere</code></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span><code>act</code></span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span><span><code>racine</code></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><code>tableOfContentDepth</code></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>default</b></span><span>5</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>custom</b></span><span>5</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>dots_cookbook</b></span><span>→ (5)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>theater</b></span><span>2 (scene lvl)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll.</b></span><span>→ (2)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span><span><code>moliere</code></span>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div class="is-flex is-justify-content-space-between">
+                  <span class="no-min-width"><b>last coll.</b></span>
+                  <span class="no-min-width">3 (indiv. speech lvl)</span>
+                </div>
+                <div class="is-flex is-justify-content-space-between">
+                  <span><b>last coll. ids</b></span>
+                  <span><code>racine</code></span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </article>
 
@@ -169,13 +358,53 @@ export default {
 }
 </script>
 <style scoped>
-.table-container {
+table {
+  width:100%;
   text-align: center;
   font-size: 12px;
 }
-.table-container td,
-.table-container th {
+table td,
+table th {
+  white-space: nowrap;
+  text-align: left;
   padding: 0.10rem 0.10rem;
+  & > b, > div > span > b {
+    color:black;
+    font-weight: bolder;
+  }
+  & > div > span:not(.no-min-width)  {
+    min-width: 60%;
+  }
+}
+table td:last-child {
+  width:100%;
+}
+.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .table-container.responsive {
+    display: block;
+    & > table tr, th {
+      border: 1px solid;
+    }
+    & > table td {
+      border-top: none;
+      border-bottom: none;
+      border-left: 1px solid;
+    }
+  }
+  pre.responsive {
+    display: block;
+    white-space: pre-wrap;
+    width: 100%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
 }
 </style>
 

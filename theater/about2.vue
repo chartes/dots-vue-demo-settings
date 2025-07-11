@@ -11,7 +11,7 @@
         For each collection, the JSON configuration file allows you to define the format (XML/TEI or HTML) using the <code>mediaTypeEndpoint</code> parameter.
       </p>
       <p>
-        We choose the HTML format. But we don't need to specify it in this collection's configuration file (<code>encpos_c2.conf.json</code>)
+        We choose the HTML format. But we don't need to specify it in this collection's configuration file (<code>theater.conf.json</code>)
         since the setting is already defined by default in the <code>custom.conf.json</code> file : <code>"mediaTypeEndpoint": "html"</code>.
       </p>
       <p>
@@ -19,7 +19,10 @@
       </p>
       <h2>Select collections to display</h2>
       <p>
-        <code>"excludeCollectionIds": ["comedie"]</code> => TODO
+        For each collection, the JSON configuration file allows you to exclude some sub-collections of a given collection using the <code>excludeCollectionIds</code> parameter.
+      </p>
+      <p>
+        For example, providing the parameter <code>"excludeCollectionIds": ["comedie"]</code> in the <code>theater.conf.json</code> will exclude the "Comédies" collection (id <code>"comedie"</code>) from its parent collection "Théâtre".
       </p>
     </div>
   </article>

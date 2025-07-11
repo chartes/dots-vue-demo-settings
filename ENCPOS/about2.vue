@@ -41,12 +41,19 @@
         Here, in <code>encpos_1971.conf.json</code>, the value <code>dots_cookbook</code> points to the stylesheets of <code>dots_cookbook/assets/css</code>.
       </p>
       <p>
+        <b>To customize TEI elements, edit the "PART 3" of the stylesheet <i>collectionCustomCss.css</i></b>
+      </p>
+      <p>
         To fully understand overload logic, read the “Overview” section.
       </p>
       <!--<h3>REVOIR LE STYLE</h3>-->
       <p>
         <b>For a response in HTML format</b>.<br>
-        TODO => expliquer comment on passe les CSS
+        To customize HTML elements, the process is similar:
+        <ul>
+          <li>use the <code>collectionCustomCss</code> parameter to provide a stylesheet in the <code>collection/assets/css</code>,</li>
+          <li>edit the "PART 2" of the provided stylesheet.</li>
+        </ul>
       </p>
     </div>
   </article>

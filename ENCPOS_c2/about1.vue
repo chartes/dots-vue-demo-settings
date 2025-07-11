@@ -10,12 +10,19 @@
       <p>
         The hierarchy is as follows:
       </p>
-      <pre>
+      <pre class="desktop">
 encpos_c2                   collection (level 1)
   > year                    document
     > abstract              fragment (level 1)
       > section             fragment (level 2, i.e. part)
         > sub-section       fragment (level 3, i.e. chapter)
+      </pre>
+      <pre class="responsive">
+encpos_c2       collection (level 1)
+> year          document
+ > abstract     fragment (lvl 1)
+  > section        "  (lvl 2: part)
+   > sub-section   "  (lvl 3: chapter)
       </pre>
       <p>NB. The editorial structure of this recipe (Thesis abstract, case 2) offers less flexibility than the other (Thesis abstract, case 1).
         With a single level 1 collection, we don't have the option of defining specific settings for each annual volume (document, not collection).
@@ -54,4 +61,18 @@ export default {
 }
 </script>
 <style scoped>
+responsive {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
 </style>

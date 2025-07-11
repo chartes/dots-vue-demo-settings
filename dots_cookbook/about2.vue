@@ -12,7 +12,7 @@
         <a href="https://chartes.github.io/dots_documentation/" target="_blank">DoTS Documentation</a>
       </p>
       <p>
-        TODO: Crédits, Licence, ENC, Biblissima+
+        DoTS was released under the MIT license by the Mission projets numériques of the <a href="https://www.chartes.psl.eu/" target="_blank">École nationale des chartes – PSL</a>, with financial support from <a href="https://projet.biblissima.fr/" target="_blank">Biblissima+</a>, a multi-site digital infrastructure dedicated to fundamental research and services in the field of the transmission of ancient texts.
       </p>
       <h2>Capabilities</h2>
       <p>
