@@ -64,9 +64,11 @@ button {
       text-shadow: 1px 2px 2px #bbb;
     }
   }
-  head {
+  head, trailer, label {
     font-family: "Linux Libertine", "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
     font-variant: small-caps;
+    font-weight: bold;
+    font-size: larger;
     color: #4e4940;
     text-shadow: 1px 2px 2px #bbb;
     background-color: transparent;
