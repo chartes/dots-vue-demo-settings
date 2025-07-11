@@ -73,6 +73,7 @@ button {
     padding-left: 0 !important;
   }
   l {
+    white-space: normal;
     font-variant: normal;
   }
   stage, sp, s {
