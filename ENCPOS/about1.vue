@@ -9,12 +9,21 @@
       <p>
         The hierarchy is as follows:
       </p>
-      <pre>
+      <pre class="desktop">
 encpos                    collection (level 1)
   > year                  collection (level 2)
     > abstract            document
       > section           fragment (level 1, i.e. part)
         > sub-section     fragment (level 2, i.e. chapter)
+      </pre>
+      <pre class="responsive">
+encpos            collection (level 1)
+> year            collection (level 2)
+ > abstract       document
+  > section       fragment
+                  (level 1 - part)
+   > sub-section  fragment
+                  (level 2 - chapter)
       </pre>
       <p>
         The various sections and subsections (part, chapter, etc.) of each abstract are declared in the endpoint Navigation response, for example:
@@ -27,8 +36,8 @@ encpos                    collection (level 1)
       </p>
       <p>Different cases are illustrated in this recipe:</p>
       <ul>
-        <li>1849 and 1971: document level (<code>"editByLevel": 0</code>, default setting for the recipe defined in <code>encpos.conf.json</code>).</li>
-        <lI>1972 : part level (<code>"editByLevel": 0</code>, custom setting for that collection defined in its JSON configuration file <code>encpos_1972.conf.json</code>.<code></code> )</lI>
+        <li>1849 and 1971: document level (<code>"editByLevel": 0</code>, default setting for the recipe defined in <code>encpos.conf.json</code>)</li>
+        <lI>1972 : part level (<code>"editByLevel": 0</code>, custom setting for that collection defined in its JSON configuration file <code>encpos_1972.conf.json</code><code></code> )</lI>
       </ul>
       <p>
         Rather than defining the segmentation level numerically, it's possible to specify it semantically, according to <code>citeType</code> value (DTS Navigation Endpoint), using the <code>editByCiteType</code> parameter.<br>
@@ -55,4 +64,18 @@ export default {
 }
 </script>
 <style scoped>
+.responsive {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
 </style>
