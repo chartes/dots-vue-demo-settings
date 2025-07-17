@@ -61,7 +61,7 @@ export default {
 }
 </script>
 <style scoped>
-responsive {
+.responsive {
   display: none;
 }
 

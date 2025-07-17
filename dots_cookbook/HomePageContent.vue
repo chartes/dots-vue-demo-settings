@@ -3,10 +3,10 @@
     <div class="about-content app-width-padding">
       <h1>DoTS Cookbook Demo</h1>
       <h2>Building a consultation frontend with DoTS-Vue</h2>
-      <p>L’application <a href="https://github.com/chartes/dots-vue" target="_blank">DoTS-Vue</a> permet de construire facilement une interface de lecture pour des collections de textes disponibles via un endpoint DTS <a href="https://github.com/chartes/dots" target="_blank">DoTS</a>.</p>
-      <p>Pour cette démonstration, nous utilisons le <a href="https://chartes.github.io/dots_documentation/cookbook/" target="_blank">cookbook DoTS</a> conçus pour apprendre comment partager des collections de textes via l’<a href="https://distributed-text-services.github.io/specifications/" target="_blank">API DTS</a>.</p>
-      <p>Le endpoint DTS utilisé est accessible : <a href="https://dots.chartes.psl.eu/demo/api/dts/">https://dots.chartes.psl.eu/demo/api/dts/</a></p>
-      <!--
+      <p>The <a href="https://github.com/chartes/dots-vue" target="_blank">DoTS-Vue</a> application allows for easily publishing online collections of texts available through a <a href="https://github.com/chartes/dots" target="_blank">DoTS</a> DTS endpoint.</p>
+      <p>For this demonstration, we are using the <a href="https://chartes.github.io/dots_documentation/cookbook/" target="_blank">DoTS cookbook</a> designed to showcase how to share collections of texts via the <a href="https://distributed-text-services.github.io/specifications/" target="_blank">DTS API</a>.</p>
+      <p>The DTS endpoint used is accessible here: <a href="https://dots.chartes.psl.eu/demo/api/dts/">https://dots.chartes.psl.eu/demo/api/dts/</a></p>
+<!--
       <hr/>
       <p>On peut imprimer ici la description inscrite dans la réponse d’API du endpoint <a href="https://dots.chartes.psl.eu/demo/api/dts/collection">Collection</a> en appelant <code>dtsCollDescription</code> :</p>
       <blockquote>

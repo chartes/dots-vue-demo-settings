@@ -305,7 +305,6 @@ theater             collection level 1
         the <code>tableOfContentDepth</code> query parameter.
       </p>
       <p>
-        Independently of this editorial segmentation, it is possible to define the depth of a document's table of contents (TOC) using the <code>tableOfContentDepth</code> query parameter.
         For example, for the plays by Racine, segmented by act (level 1), their TOC are detailed at scene level (level 2).
       </p>
       <p>DoTS-Vue automatically provides a link for each TOC item according to the scenario: fragment link if the level corresponds to the editorial segmentation, anchor if the level is finer than this segmentation.

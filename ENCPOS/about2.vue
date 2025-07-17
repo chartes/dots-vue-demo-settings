@@ -40,8 +40,7 @@
         The <code>collectionCustomCss</code> parameter value points to the collection containing the CSS folder.<br>
         Here, in <code>encpos_1971.conf.json</code>, the value <code>dots_cookbook</code> points to the stylesheets of <code>dots_cookbook/assets/css</code>.
       </p>
-      <p>
-        <b>To customize TEI elements, edit the "PART 3" of the stylesheet <i>collectionCustomCss.css</i></b>
+      <p>To customize TEI elements, edit the "PART 3" of the stylesheet <i>collectionCustomCss.css</i>
       </p>
       <p>
         To fully understand overload logic, read the “Overview” section.
