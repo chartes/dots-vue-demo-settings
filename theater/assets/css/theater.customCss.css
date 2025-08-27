@@ -9,6 +9,7 @@
   --text-color: #8f0e21;
   --fill-color: #8f0e21;
 }*/
+/* Using css variables */
 :root {
   --text-color: #8f0e21;
   --fill-color: #8f0e21;
@@ -108,8 +109,6 @@ button {
       color: #3e3b36;
     }
   }
-
-
   span.left {
     font-weight: bold !important;
   }
