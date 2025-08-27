@@ -60,7 +60,7 @@
 </template>
 <script>
 export default {
-  name: 'AboutThirdSection',
+  name: 'AboutSecondSection',
 
   setup () {
   }

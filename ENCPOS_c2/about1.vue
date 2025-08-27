@@ -54,7 +54,7 @@ encpos_c2       collection (level 1)
 </template>
 <script>
 export default {
-  name: 'AboutSecondSection',
+  name: 'AboutFirstSection',
 
   setup () {
   }
