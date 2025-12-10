@@ -1,6 +1,6 @@
 <template>
-  <article class="about">
-    <div class="about-content app-width-padding">
+  <article class="home">
+    <div class="home-content app-width-padding">
       <h1>DoTS Cookbook Demo</h1>
       <h2>Building a consultation frontend with DoTS-Vue</h2>
       <p>The <a href="https://github.com/chartes/dots-vue" target="_blank">DoTS-Vue</a> application allows for easily publishing online collections of texts available through a <a href="https://github.com/chartes/dots" target="_blank">DoTS</a> DTS endpoint.</p>
@@ -58,10 +58,10 @@ export default {
 }
 </script>
 <style scoped>
-.about {
+.home {
   font-family: "Barlow", sans-serif;
 }
-.about h1 {
+.home h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
@@ -71,7 +71,7 @@ export default {
   text-transform: none;
   color: var(--text-color);
 }
-.about h2 {
+.home h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
@@ -80,7 +80,7 @@ export default {
   line-height: 33px;
   text-transform: none;
 }
-.about p {
+.home p {
   text-align: left;
   text-indent: 0;
 }
