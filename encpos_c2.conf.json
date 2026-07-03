@@ -28,6 +28,5 @@
     { "tabName": "What we learn", "compName": "about2" },
     { "tabName": "Overview", "compName": "about3" },
     null
-  ],
-  "collectionCustomCss": true
+  ]
 }
