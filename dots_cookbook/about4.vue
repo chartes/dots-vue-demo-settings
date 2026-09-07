@@ -10,7 +10,7 @@
         This application showcases the functionalities of the DoTS-Vue frontend. You'll learn how to manage XML/TEI or HTML data, present a project and define the editorial breakdown of an edition for navigation and reading.
       </p>
       <p>
-        <a href="https://chartes.github.io/dots_documentation/cookbook/" target="_blank">https://chartes.github.io/dots_documentation/cookbook/</a>
+        <a href="https://dots-suite.github.io/dots_documentation/cookbook/" target="_blank">https://dots-suite.github.io/dots_documentation/cookbook/</a>
       </p>
     </div>
   </article>

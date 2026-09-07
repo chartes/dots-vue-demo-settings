@@ -7,7 +7,7 @@
         A periodical is a regular, collective publication, such as the annual proceedings of a conference. Here we take the example of the École des Chartes' annual publication of thesis abstracts.
       </p>
       <p>
-      <a href="https://chartes.github.io/dots_documentation/cookbook/periodical/#cas-2-un-article-est-un-fragment" target="_blank">This recipe (ENCPOS_c2)</a> illustrates one way of publishing a periodical, with an XML/TEI file for each volume. Each abstract is a fragment of these volumes.
+      <a href="https://dots-suite.github.io/dots_documentation/cookbook/periodical/#cas-2-un-article-est-un-fragment" target="_blank">This recipe (ENCPOS_c2)</a> illustrates one way of publishing a periodical, with an XML/TEI file for each volume. Each abstract is a fragment of these volumes.
       </p>
       <!--
       <p>

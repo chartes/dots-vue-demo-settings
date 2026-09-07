@@ -4,7 +4,7 @@
       <h1>Theater</h1>
       <h2>Publish collections of plays</h2>
       <p>
-        <a href="https://chartes.github.io/dots_documentation/cookbook/theater/" target="_blank">This recipe</a> details the possibilities offered by DoTS for publishing plays.
+        <a href="https://dots-suite.github.io/dots_documentation/cookbook/theater/" target="_blank">This recipe</a> details the possibilities offered by DoTS for publishing plays.
       </p>
       <p>
         The aim is to be able to describe, quote and republish : an act, a scene, a turn of speech, possibly a stanza or verse.<br>

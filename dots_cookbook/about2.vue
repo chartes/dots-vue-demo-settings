@@ -9,7 +9,7 @@
         DoTS makes it easy to publish sources in XML/TEI according to the FAIR (Findable, Accessible, Interoperable, Reusable) principles.
       </p>
       <p>
-        <a href="https://chartes.github.io/dots_documentation/" target="_blank">DoTS Documentation</a>
+        <a href="https://dots-suite.github.io/dots_documentation/" target="_blank">DoTS Documentation</a>
       </p>
       <p>
         DoTS was released under the MIT license by the Mission projets numériques of the <a href="https://www.chartes.psl.eu/" target="_blank">École nationale des chartes – PSL</a>, with financial support from <a href="https://projet.biblissima.fr/" target="_blank">Biblissima+</a>, a multi-site digital infrastructure dedicated to fundamental research and services in the field of the transmission of ancient texts.
