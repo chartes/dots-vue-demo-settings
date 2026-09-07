@@ -20,7 +20,6 @@
       "listSection": {
         "displayMode": "card",
         "cardCollectionPerPage": 5,
-        "logo": "",
         "browseButtonText": "Browse the collection"
       }
     },
@@ -34,7 +33,7 @@
       ],
       "countByCiteType": [
       ],
-      "displayTopToc": false
+      "displayLeftToc": true
     },
     "aboutPageSettings": [
       { "tabName": "tabName1", "compName": "about1" },
