@@ -19,9 +19,9 @@
           DTS specifies 3 distinct operation endpoints:
         </p>
         <ul>
-          <li>Navigation across texts is supported by the <a href="https://distributed-text-services.github.io/specifications/versions/unstable/#collection-endpoint" target="_blank">Collection Endpoint</a></li>
-          <li>Navigation within a text is supported by the <a href="https://distributed-text-services.github.io/specifications/versions/unstable/#navigation-endpoint" target="_blank">Navigation Endpoint</a></li>
-          <li>Retrieval of complete or partial texts is supported by the <a href="https://distributed-text-services.github.io/specifications/versions/unstable/#document-endpoint" target="_blank">Document Endpoint</a></li>
+          <li>Navigation across texts is supported by the <a href="https://dtsapi.org/specifications/versions/v1.0/#collection-endpoint" target="_blank">Collection Endpoint</a></li>
+          <li>Navigation within a text is supported by the <a href="https://dtsapi.org/specifications/versions/v1.0/#navigation-endpoint" target="_blank">Navigation Endpoint</a></li>
+          <li>Retrieval of complete or partial texts is supported by the <a href="https://dtsapi.org/specifications/versions/v1.0/#document-endpoint" target="_blank">Document Endpoint</a></li>
         </ul>
         <p>
           The Collection and Navigation endpoints return JSON-LD. The Document endpoint is specified to return TEI/XML of the requested text or fragment.
