@@ -3,7 +3,7 @@
     <div class="home-content app-width-padding">
       <h1>DoTS Cookbook Demo</h1>
       <h2>Building a consultation frontend with DoTS-Vue</h2>
-      <p>The <a href="https://github.com/chartes/dots-vue" target="_blank">DoTS-Vue</a> application allows for easily publishing online collections of texts available through a <a href="https://github.com/chartes/dots" target="_blank">DoTS</a> DTS endpoint.</p>
+      <p>The <a href="https://github.com/dots-suite/dots-vue" target="_blank">DoTS-Vue</a> application allows for easily publishing online collections of texts available through a <a href="https://github.com/dots-suite/dots" target="_blank">DoTS</a> DTS endpoint.</p>
       <p>For this demonstration, we are using the <a href="https://dots-suite.github.io/dots_documentation/cookbook/" target="_blank">DoTS cookbook</a> designed to showcase how to share collections of texts via the <a href="https://distributed-text-services.github.io/specifications/" target="_blank">DTS API</a>.</p>
       <p>The DTS endpoint used is accessible here: <a href="https://dots.chartes.psl.eu/demo/api/dts/">https://dots.chartes.psl.eu/demo/api/dts/</a></p>
 <!--

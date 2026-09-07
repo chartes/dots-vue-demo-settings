@@ -7,7 +7,7 @@
         To configure the display of a project or a collection, it is not recommended modifying the default dots-vue configuration file (<code>default.conf.json</code>).
       </p>
       <p>
-        Create instead a dedicated project (here <a href="https://github.com/chartes/dots-vue-demo-settings" target="_blank">dots-vue-demo-settings</a>) which will be called when the dots-vue application is launched:<br>
+        Create instead a dedicated project (here <a href="https://github.com/dots-suite/dots-vue-demo-settings" target="_blank">dots-vue-demo-settings</a>) which will be called when the dots-vue application is launched:<br>
         <code>dots-vue % CUSTOM_SETTINGS_PATH=../dots-vue-demo-settings yarn serve</code>
       </p>
       <p>
