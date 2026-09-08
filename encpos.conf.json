@@ -25,7 +25,8 @@
   "tableOfContentsSettings": {
     "editByLevel": 0,
     "editByCiteType": [],
-    "displayTopToc": true
+    "displayTopToc": true,
+    "displayLeftToc": true
   },
   "aboutPageSettings": [
     { "tabName": "Segmentation", "compName": "about1" },
@@ -33,5 +34,33 @@
     { "tabName": "Overview", "compName": "about3" },
     null
   ],
-  "collectionCustomCss": false
+  "collectionCustomCss": false,
+   "metadataDisplayOrder": [
+    "dct:title",
+    "schema:author",
+    "dct:created",
+    "dct:language",
+     "dct:coverage",
+    "schema:isBasedOn",
+    "schema:publisher",
+    "dct:issued",
+    "dct:bibliographicCitation",
+    "schema:license",
+    "dct:rights"
+  ],
+   "metadataRename": {
+     "dct:title": "Titre",
+     "schema:author": "Auteur",
+     "dct:created": "Date du document",
+     "dct:language": "Langue",
+     "dct:coverage": "Période du sujet",
+     "schema:isBasedOn": "Source",
+     "schema:publisher": "Publié par",
+     "dct:issued": "Date de publication",
+     "schema:license": "Licence",
+     "dct:rights": "Mentions de droits"
+  },
+  "excludeMetadata": {
+    "onlyDeclared": true
+  }
 }
